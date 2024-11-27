@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #a8e0ff, #0083b0);
+    background-attachment: fixed; /* تثبيت الخلفية */
+    color: #fff;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+}
+
+.card {
+    margin: 10px auto;
+    width: 250px;
+    height: 120px;
+    background: linear-gradient(to bottom right, #1c1c1e, #4b4b4d);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-number {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+.card-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+}
+
+.money-area {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.money-display {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.note {
+    font-size: 0.9rem;
+    margin: 5px;
+    opacity: 0.8;
+}
+
+.button-container {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.menu {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #005f73;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu:hover {
+    background-color: #0093a5;
+}
+
+.investment-options {
+    margin-top: 20px;
+}
+
+.investment-option {
+    display: flex;
+    justify-content: space-between;
+    background: #0a9396;
+    margin: 10px 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.investment-option button {
+    background: #005f73;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.investment-option button:hover {
+    background: #0093a5;
+}
+
+.inventory {
+    padding: 10px;
+}

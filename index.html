@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="content">
+        <div class="card">
+            <div id="displayCardNumber" class="card-number">**** **** **** ****</div>
+            <div class="card-details">
+                <span id="displayCardHolder">Holder: ****</span>
+                <span>Exp: 12/25</span>
+            </div>
+        </div>
+
+        <div class="money-area" onclick="increaseMoney()">
+            <div id="money-display" class="money-display">$0</div>
+            <p class="note">💰 Click anywhere to earn money 💰</p>
+        </div>
+
+        <div class="button-container">
+            <select class="menu" id="investment-select" onchange="showInvestmentOptions()">
+                <option value="">Choose a Category</option>
+                <option value="cars">Cars</option>
+                <option value="houses">Houses</option>
+                <option value="companies">Companies</option>
+                <option value="contracts">Contracts</option>
+                <option value="airplanes">Airplanes</option>
+            </select>
+        </div>
+
+        <div id="investment-options" class="investment-options"></div>
+        <div class="inventory" id="inventory"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
